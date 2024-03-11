@@ -1,5 +1,8 @@
+body {
+    background-color: rgb(246, 255, 238);
+}
 .page-header {
-    background-color: #87A96B;
+    background-color: #465a41;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -9,29 +12,32 @@
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #ffffff;
+    color: #f5f5f5;
     font-size: 36pt;
-    text-decoration: none;
+    text-decoration:solid;
 }
 
 h1,
 h2,
 h3,
 h4 {
+    color: #ffffff;
     font-family: 'Lobster', cursive;
 }
 
 .date {
-    color: #828282;
+    color: #ffffff;
 }
 
 .save {
     float: right;
+    color: #fdfdfd;
 }
 
 .post-form textarea,
 .post-form input {
     width: 100%;
+    border: radius 40px;
 }
 
 .top-menu,
@@ -44,27 +50,38 @@ h4 {
 }
 
 .post {
+    color: #fdfdfd;
     margin-bottom: 70px;
 }
 
 .post h2 a,
 .post h2 a:visited {
-    color: #000000;
+    color: #ffffff;
 }
 
 .post > .date,
 .post > .actions {
+    color: #fdfdfd;
     float: right;
 }
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #87A96B;
+    color: #ffffff;
     background: none;
-    border-color: #828282;
+    border-color: #ffffff;
 }
 
 .btn-secondary:hover {
-    color: #cecece;
-    background-color: #87A96B;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.col{
+    background-color: #2a3a23;
+    box-shadow: #2a3a23;
+    color: #f5f5f5;
+}
+.p{
+    font-family: "Protest Riot", sans-serif;
 }
